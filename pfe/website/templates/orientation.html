@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <title>Orientation</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/Orientation.css') }}">
+    </head>
+    <body>
+        <form method="post" action="/Addpatient">
+            <a href="infoPatient.html"> <img src="arrow.svg"></a>
+            <div class="form-floating" id="div">
+            <label for="floatingTextarea2" style="font-family: Inter, sans-serif; ">Description:</label><br>
+            <textarea class="form-control" id="floatingTextarea2" rows="10" cols="50"> </textarea>
+            <label style="font-family: Inter, sans-serif;">Orientation:</label><br>
+            <button  type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+    </body>
+</html>

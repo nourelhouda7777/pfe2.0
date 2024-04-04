@@ -1,0 +1,17 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+a{
+    top: 20%;
+    margin: 20px;
+}
+.container{
+    max-width: 710px;
+    min-width: 324px;
+    height: 800px;
+    margin: 50px auto 0;
+    background-color: #cceafc;
+    border-radius: 20px;
+    border: 1px solid lighten(#63C7FF, 8%); 
+    border-bottom: 3px solid #63C7FF;
+  }
